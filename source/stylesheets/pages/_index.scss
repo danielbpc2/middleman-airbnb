@@ -2,7 +2,12 @@
 @import "home";
 @import "about";
 @import "team";
+@import "flats";
 
 .container {
   padding: 100px 0px;
+}
+
+.wrapper-gray {
+  background-color: $ae-gray;
 }
