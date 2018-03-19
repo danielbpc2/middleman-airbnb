@@ -1,0 +1,14 @@
+<div id="team">
+<div class="container">
+  <h1> The team!</h1>
+  <ul class="list-inline text-center">
+    <% data.team.each do |member, info| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{info.gh}", class: "img-team" %>
+        <h3><%=info.name%></h3>
+        <h2><%=info.gh%></h2>
+      </li>
+    <% end %>
+  </ul>
+</div>
+</div>

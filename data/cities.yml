@@ -1,0 +1,12 @@
+Berlim:
+  name: "Berlim"
+  desc: "Oy mate"
+  category: "Drinking"
+Paris:
+  name: "Paris"
+  desc: "Omellete du fromage"
+  category: "Eating"
+Rio:
+  name: "Rio de Janeiro"
+  desc: "Passa a carteira."
+  category: "Adventure"
