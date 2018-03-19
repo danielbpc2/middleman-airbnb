@@ -5,28 +5,28 @@
 <!-- Inject flat data in template -->
 <div class="wrapper-gray" style= "background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url(<%="https://kitt.lewagon.com/placeholder/cities/#{flat.city_slug}"%>)";>
   <div class="container">
-    <div class="profile">
-      <div class="profile-img">
-        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "avatar" %>
-      </div>
-      <div class="profile-name">
-        <h1><strong><%= flat.name %></strong></h1>
-      </div>
-      <div class="profile-rating">
-        <%flat.rating.times do%>
-        <i class="fa fa-star" style="color: yellow;"></i>
-        <%end%>
-      </div>
-      <div class="profile-description">
-        <h3><%= flat.description %></h3>
-        <%if flat.wifi == true %>
-          <p style="color: green;"><i class="fa fa-wifi"></i> There is Wifi! </p>
-        <%else%>
-          <p style="color: red;"><i class="fa fa-wifi"></i> There is no Wifi! </p>
-        <%end%>
-      </div>
-        <div class="profile-city">
-          <h2><%= flat.city_name %></h2>
-        </div>
-  </div>
+  <div class="profile">
+   <div class="profile-img">
+     <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "avatar" %>
+   </div>
+   <div class="profile-name">
+     <h1><strong><%= flat.name %></strong></h1>
+   </div>
+   <div class="profile-rating">
+     <%flat.rating.times do%>
+     <i class="fa fa-star" style="color: yellow;"></i>
+     <%end%>
+   </div>
+   <div class="profile-description">
+     <h3><%= flat.description %></h3>
+     <%if flat.wifi == true %>
+       <p style="color: green;"><i class="fa fa-wifi"></i> There is Wifi! </p>
+     <%else%>
+       <p style="color: red;"><i class="fa fa-wifi"></i> There is no Wifi! </p>
+     <%end%>
+   </div>
+     <div class="profile-city">
+       <h2><%= flat.city_name %></h2>
+     </div>
+   </div>
 </div>

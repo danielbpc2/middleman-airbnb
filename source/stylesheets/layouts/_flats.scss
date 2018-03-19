@@ -36,3 +36,21 @@
   }
 }
 
+
+@media (max-width: 572px) {
+.container {
+  transform: scale(0.4);
+  margin-right: 100px;
+}
+.profile {
+  display: flex;
+  background-color: rgba(255,255,255,0.8);
+  padding: 80px 10px;
+  border-radius: 40px;
+  position: relative;
+  height: 250px;
+  width: 100vh;
+  justify-content: space-around;
+  }
+}
+
