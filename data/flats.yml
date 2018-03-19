@@ -1,0 +1,35 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+Danielbpc2:
+  name: "Daniel's home"
+  description: "Passa a carteira boy."
+  city_name: "Rio de Janeiro, Brazil"
+  city_slug: "rio"
+  wifi: true
+  rating: 5
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 3
+fdzanette:
+  name: Fabrício's home
+  description: Passa o Celular parça!
+  city_name: "São Paulo, Brazil"
+  city_slug: "sao-paulo"
+  wifi: true
+  rating: 3
+danialvino:
+  name: Danielle's home
+  description: Passa a bolsa boyzinha!
+  city_name: "Natal, Brazil"
+  city_slug: "berlim"
+  wifi: true
+  rating: 3
